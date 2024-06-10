@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            body{
+                background-color:rgb(1,1,38);
+                color: white;
+            }
+            nav{
+                display:flex;
+                justify-content: space-around;
+                align-items: center;
+                height:80px;
+                background-color: rgb(18,18,62);
+            }
+            nav ul{
+                display:flex;
+                justify-content: center;
+
+            }
+            nav ul li{
+                list-style: none;
+                margin:0 23px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color:white;
+            }
+            nav ul li a:hover{
+                text-decoration: none;
+                color:rgb(104, 104, 212);
+                font-size: 1.03rem;
+            }
+            main hr{
+                border:0;
+                background: #9c97f1;
+                height:1.2px;
+                margin:40px 84px;
+            }
+            .left{
+                font-size: 1.5rem;
+            }
+            .firstSection{
+                display:flex;
+                justify-content: space-around;
+                align-items: center;
+                margin:90px 0;
+            }
+            .firstSection  >  div{
+                width: 40%
+            }
+            .leftSection{
+                font-size: 3rem;
+                margin: 70px 0;
+            }
+            .leftSection .buttons{
+                padding:23px;
+            }
+            .leftSection .btn{
+                padding:12px;
+                background: #070b69;
+                color:white;
+                border:2px solid white;
+                border-radius: 6px;
+                font-size: 20px;
+                cursor:pointer;
+            }
+            .rightSection img{
+               width:80%;
+            }
+            .purple{
+            color:rgb(97, 30, 185);
+            }
+            .text-gray{
+                color:gray;
+            }
+            #element{
+                color:blueviolet;
+            }
+            .secondSection{
+              max-width: 90vw;
+              margin:auto;
+              height: 80vh;
+            }
+            .secondSection h1{
+                font-size: 1.9rem;
+            }
+            .secondSection .box{
+                background:white;
+                width:90vw;
+                height:2px;
+                margin:56px 0;
+                display:flex;
+            }
+            .secondSection .vertical{
+                height:93px;
+                width:1px;
+                background-color: white;
+                margin: 0 100px;
+            }
+            .image-top{
+                width:23px;
+                position:relative;
+                top:-32px;
+                left:-9px;
+
+            }
+            .vertical-title{
+              position:relative;
+              top:95px;
+              width:150px;
+              font-size: 38px;
+            }
+            .vertical-desc{
+                position:relative;
+                top:86px;
+                color:gray;
+                width:160px;
+                font-size: 12px;
+            }
+            .vertical-text{
+                position:relative;
+                top:70px;
+                color:rgb(24, 186, 207);
+                font-size: 20px;
+            }
+            footer{
+                background-color:#0e0e1a;
+                padding: 23px;
+            }
+            .footer{
+                display:flex;
+                padding:23px 142px;
+                justify-content: space-evenly;
+            }
+            .footer ul{
+                list-style:none;
+            }
+            .footer > div{
+                width:233px;
+            }
+            footer .footer-rights{
+                text-align:center;
+                color:gray;
+                padding:12px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>             <nav>
+                    <div class="left"> Vaishnavi's Portfolio</div>
+                    <div class="right">
+                        <ul>
+                           <li><a href="/">Home</a></li>
+                            <li><a href="/">About</a></li>
+                            <li><a href="/">Services</a></li>
+                            <li><a href="/">Projects</a></li>
+                            <li><a href="/">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        </header>
+        <main>
+            <section class="firstSection">
+                <div class="leftSection">
+                    Hi, My name is <span class="purple">Vaishnavi</span> 
+                    <div> and I am a passionate</div>
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <button class ="btn">Download Resume</button>
+                        <button class="btn">Visit Github</button>
+                    </div>
+                </div>
+                <div class="rightSection">
+                    <img src="jpfile - Copy.jpg" alt="">
+                </div>
+            </section>
+            <hr>
+                <section class="secondSection">
+                    <span class="text-gray">What I have done  so far</span>
+                    <h1>Work Experience</h1>
+               <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Sunt, fugiat laborum quaerat accusantium aperiam vero doloribus autem, sapiente, 
+                         tenetur reiciendis ipsam quo corporis praesentium ipsa voluptas quasi ab laudantium architecto!
+                    </div>
+                </div>
+                <div class="vertical">
+                <img class="image-top" src="fblogo.png" alt="">
+                <div class="vertical-text">
+                    Node.js Developer-Facebook (2012-2014)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Sunt, fugiat laborum quaerat accusantium aperiam vero doloribus autem, sapiente, 
+                     tenetur reiciendis ipsam quo corporis praesentium ipsa voluptas quasi ab laudantium architecto!
+                </div>
+                </div>
+                     <div class="vertical">
+                        <img class="image-top" src="Insta.png" alt="">
+                        <div class="vertical-text">
+                            HTML Developer-Instagram (2012-2014)
+                        </div>
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                             Sunt, fugiat laborum quaerat accusantium aperiam vero doloribus autem, sapiente, 
+                             tenetur reiciendis ipsam quo corporis praesentium ipsa voluptas quasi ab laudantium architecto!
+                        </div>
+                        </div>
+                <div class="vertical">
+                    <img class="image-top" src="linkedin1.png" alt="">
+                <div class="vertical-text">
+                    HTML Developer-Linked In (2012-2014)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Sunt, fugiat laborum quaerat accusantium aperiam vero doloribus autem, sapiente, 
+                     tenetur reiciendis ipsam quo corporis praesentium ipsa voluptas quasi ab laudantium architecto!
+                </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="twitter1.png" alt="">
+                <div class="vertical-text">
+                    HTML Developer-Twitter (2012-2014)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Sunt, fugiat laborum quaerat accusantium aperiam vero doloribus autem, sapiente, 
+                     tenetur reiciendis ipsam quo corporis praesentium ipsa voluptas quasi ab laudantium architecto!
+                </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Youtube_logo.png" alt="">
+                <div class="vertical-text">
+                    HTML Developer-Youtube (2012-2014)
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Sunt, fugiat laborum quaerat accusantium aperiam vero doloribus autem, sapiente, 
+                     tenetur reiciendis ipsam quo corporis praesentium ipsa voluptas quasi ab laudantium architecto!
+                </div>
+                </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h3>Vaishnavi's Developer Portfolio</h3>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Service</li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Service</li>
+                    </ul>
+                </div>
+                <div class="footer-fourth">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Service</li>
+                    </ul>
+                </div>
+                <div class="footer-rights">
+                 Copyrights &#169; Vaishnavi's Portfolio.com | All rights reserved
+            </div>
+        </div>
+        </footer>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Developer','Graphic Designer','Web Designer','Video Editor'],
+              typeSpeed: 50,
+            });
+          </script>
+        
+    </body>
+</html>
